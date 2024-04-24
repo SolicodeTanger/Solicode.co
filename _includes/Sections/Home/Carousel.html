@@ -1,0 +1,39 @@
+<div class="relative" style="height: 100vh">
+    <!-- Placeholder images -->
+    <img src="./assets/images/background01.png" alt="Placeholder Image 1"
+        class="absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 opacity-100">
+    <img src="./assets/images/background02.png" alt="Placeholder Image 2"
+        class="absolute top-0 left-0 w-full h-full object-cover transition-opacity duration-700 opacity-0">
+    <!-- Add more images as needed -->
+
+    <!-- Black overlay with 50% transparency -->
+    <div class="absolute top-0 left-0 w-full h-full bg-black bg-opacity-50"></div>
+    <svg id="wave" class="absolute bottom-0 z-20" style="transform:rotate(0deg); transition: 0.3s"
+        viewBox="0 0 1440 260" version="1.1" xmlns="http://www.w3.org/2000/svg">
+        <defs>
+            <linearGradient id="sw-gradient-0" x1="0" x2="0" y1="1" y2="0">
+                <stop stop-color="rgba(255, 255, 255, 1)" offset="0%"></stop>
+                <stop stop-color="rgba(255, 255, 255, 1)" offset="100%"></stop>
+            </linearGradient>
+        </defs>
+        <path style="transform:translate(0, 0px); opacity:1" fill="url(#sw-gradient-0)"
+            d="M0,234L240,216.7C480,199,960,165,1440,164.7C1920,165,2400,199,2880,190.7C3360,182,3840,130,4320,95.3C4800,61,5280,43,5760,60.7C6240,78,6720,130,7200,147.3C7680,165,8160,147,8640,130C9120,113,9600,95,10080,86.7C10560,78,11040,78,11520,91C12000,104,12480,130,12960,156C13440,182,13920,208,14400,190.7C14880,173,15360,113,15840,95.3C16320,78,16800,104,17280,95.3C17760,87,18240,43,18720,21.7C19200,0,19680,0,20160,0C20640,0,21120,0,21600,39C22080,78,22560,156,23040,164.7C23520,173,24000,113,24480,82.3C24960,52,25440,52,25920,69.3C26400,87,26880,121,27360,143C27840,165,28320,173,28800,156C29280,139,29760,95,30240,86.7C30720,78,31200,104,31680,121.3C32160,139,32640,147,33120,134.3C33600,121,34080,87,34320,69.3L34560,52L34560,260L34320,260C34080,260,33600,260,33120,260C32640,260,32160,260,31680,260C31200,260,30720,260,30240,260C29760,260,29280,260,28800,260C28320,260,27840,260,27360,260C26880,260,26400,260,25920,260C25440,260,24960,260,24480,260C24000,260,23520,260,23040,260C22560,260,22080,260,21600,260C21120,260,20640,260,20160,260C19680,260,19200,260,18720,260C18240,260,17760,260,17280,260C16800,260,16320,260,15840,260C15360,260,14880,260,14400,260C13920,260,13440,260,12960,260C12480,260,12000,260,11520,260C11040,260,10560,260,10080,260C9600,260,9120,260,8640,260C8160,260,7680,260,7200,260C6720,260,6240,260,5760,260C5280,260,4800,260,4320,260C3840,260,3360,260,2880,260C2400,260,1920,260,1440,260C960,260,480,260,240,260L0,260Z">
+        </path>
+    </svg>
+
+    <!-- Text overlay -->
+    <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-center text-white"
+        style="width: 80%;">
+        <div class="grid grid-cols-2">
+            <div>
+                <h1 class="text-6xl font-bold bg-light-bluePrimary">Your Text Here</h1>
+                <!-- <h1 class="font-bold text-3xl text-light-beige dark:via-dark-default">Inscription 2023-2024 </h1> -->
+            </div>
+            <div class="block font-bold text-3xl text-light-red">
+                Vous avez entre 18 et 35 ans? Vous êtes motivé, passionné par les technologies digitales? Inscrivez-vous
+                maintenant!
+            </div>
+        </div>
+    </div>
+    <!-- <p class="mt-4">Additional text content</p> -->
+</div>
