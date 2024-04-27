@@ -1371,38 +1371,6 @@ input:checked + .toggle-bg {
   animation: fade-up 1s both;
 }
 
-@keyframes jump-in {
-  0% {
-    transform: scale(0%);
-  }
-
-  80% {
-    transform: scale(120%);
-  }
-
-  100% {
-    transform: scale(100%);
-  }
-}
-
-.animate-jump-in {
-  animation: jump-in .5s both;
-}
-
-@keyframes wiggle {
-  0%, 100% {
-    transform: rotate(-3deg);
-  }
-
-  50% {
-    transform: rotate(3deg);
-  }
-}
-
-.animate-wiggle {
-  animation: wiggle 1s both;
-}
-
 .cursor-default {
   cursor: default;
 }
@@ -1703,11 +1671,6 @@ input:checked + .toggle-bg {
   line-height: 2.25rem;
 }
 
-.text-4xl {
-  font-size: 2.25rem;
-  line-height: 2.5rem;
-}
-
 .text-6xl {
   font-size: 3.75rem;
   line-height: 1;
@@ -1783,11 +1746,6 @@ input:checked + .toggle-bg {
   color: rgb(252 252 252 / var(--tw-text-opacity));
 }
 
-.text-light-bluePrimary {
-  --tw-text-opacity: 1;
-  color: rgb(58 69 185 / var(--tw-text-opacity));
-}
-
 .text-light-red {
   --tw-text-opacity: 1;
   color: rgb(255 111 97 / var(--tw-text-opacity));
@@ -1857,14 +1815,6 @@ input:checked + .toggle-bg {
 
 .ease-out {
   transition-timing-function: cubic-bezier(0, 0, 0.2, 1);
-}
-
-.animate-delay-300 {
-  animation-delay: 300ms;
-}
-
-.animate-once {
-  animation-iteration-count: 1;
 }
 
 .animate-thrice {
