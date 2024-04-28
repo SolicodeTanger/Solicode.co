@@ -15,8 +15,14 @@
 </head>
 
 <body>
+
+
   <main class="bg-light-primary dark:bg-dark-primary">
-    {{ content }}
+    {% include Components/navBar.html %}
+    <div>
+      {{ content }}
+    </div>
+    {% include Components/Footer.html %}
   </main>
 
   <!-- Javascript -->

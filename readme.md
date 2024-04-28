@@ -22,6 +22,7 @@
 bundle install # Install Ruby gems
 npm install # Install npm dependencies
 npm run dev # Compile jekyll site and run PostCSS
+bundle exec jekyll serve
 ```
 
 ## Build for production
