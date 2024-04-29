@@ -1163,12 +1163,20 @@ input:checked + .toggle-bg {
   z-index: 50;
 }
 
+.z-0 {
+  z-index: 0;
+}
+
 .col-span-1 {
   grid-column: span 1 / span 1;
 }
 
 .m-4 {
   margin: 1rem;
+}
+
+.m-20 {
+  margin: 5rem;
 }
 
 .mx-auto {
@@ -1395,6 +1403,10 @@ input:checked + .toggle-bg {
 
 .flex-shrink {
   flex-shrink: 1;
+}
+
+.grow {
+  flex-grow: 1;
 }
 
 .-translate-x-1\/2 {
@@ -1744,6 +1756,11 @@ input:checked + .toggle-bg {
   background-color: rgb(255 255 255 / 0.5);
 }
 
+.bg-light-red {
+  --tw-bg-opacity: 1;
+  background-color: rgb(255 111 97 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
 }
@@ -1821,6 +1838,11 @@ input:checked + .toggle-bg {
 .py-3 {
   padding-top: 0.75rem;
   padding-bottom: 0.75rem;
+}
+
+.py-96 {
+  padding-top: 24rem;
+  padding-bottom: 24rem;
 }
 
 .pt-2 {
@@ -2026,6 +2048,10 @@ input:checked + .toggle-bg {
 
 .ease-in-out {
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.ease-in {
+  transition-timing-function: cubic-bezier(0.4, 0, 1, 1);
 }
 
 .animate-delay-500 {

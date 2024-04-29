@@ -21,20 +21,18 @@
 ```bash
 bundle install # Install Ruby gems
 npm install # Install npm dependencies
-npm run dev # Compile jekyll site and run PostCSS
 bundle exec jekyll serve
 ```
 
-## Build for production
-
-```bash
-npm run build # Complie jekyll site and run PostCSS as production
-```
-
-- [generete svg](https://www.softr.io/tools/svg-wave-generator)
-- [animation jquery](https://codepen.io/jencrosby/pen/NWxZOyX)
-- [jqueryscript](https://www.jqueryscript.net/blog/best-particle-systems.html)
-https://ej2.syncfusion.com/javascript/documentation/carousel/animations-and-transitions?cs-save-lang=1&cs-lang=html
+## Animation Jquery 
+- [Animation Jquery ](https://www.jqueryscript.net/animation/fade-in-scroll-load.html)
+- u-fade-type-static: Simple fade-in animation
+- u-fade-type-left: Slide from the left
+- u-fade-type-right: Slide from the right
+- u-fade-type-top: Slide from the top
+- u-fade-type-down: Slide from the bottom
+- js-window-trigger: Trigger the animation on document ready
+- js-scroll-trigger: Trigger the animation on scroll
 
 
 
@@ -45,3 +43,11 @@ https://ej2.syncfusion.com/javascript/documentation/carousel/animations-and-tran
 
 ## Figma maquette
 - [maquette](https://github.com/SolicodeTanger/Solicode.co)
+
+
+
+
+## 
+- [generete svg](https://www.softr.io/tools/svg-wave-generator)
+- [animation jquery](https://codepen.io/jencrosby/pen/NWxZOyX)
+- [jqueryscript](https://www.jqueryscript.net/blog/best-particle-systems.html)
