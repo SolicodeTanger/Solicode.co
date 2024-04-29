@@ -42,3 +42,6 @@ https://ej2.syncfusion.com/javascript/documentation/carousel/animations-and-tran
 - [Repo github](https://github.com/SolicodeTanger/Solicode.co)
 ## Solicode link
 - [wib site solicode](https://solicodetanger.github.io/Solicode.co/)
+
+## Figma maquette
+- [maquette](https://github.com/SolicodeTanger/Solicode.co)
