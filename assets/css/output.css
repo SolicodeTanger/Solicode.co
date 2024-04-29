@@ -1761,6 +1761,11 @@ input:checked + .toggle-bg {
   background-color: rgb(255 111 97 / var(--tw-bg-opacity));
 }
 
+.bg-light-blueSecondary {
+  --tw-bg-opacity: 1;
+  background-color: rgb(130 144 209 / var(--tw-bg-opacity));
+}
+
 .bg-opacity-90 {
   --tw-bg-opacity: 0.9;
 }
@@ -1788,6 +1793,10 @@ input:checked + .toggle-bg {
 
 .p-4 {
   padding: 1rem;
+}
+
+.p-20 {
+  padding: 5rem;
 }
 
 .px-10 {

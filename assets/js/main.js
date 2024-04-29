@@ -10,3 +10,8 @@ document.addEventListener("DOMContentLoaded", function () {
         images[currentIndex].style.opacity = '1';
     }, 5000);
 });
+
+// Counter
+
+
+
