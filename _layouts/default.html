@@ -6,8 +6,10 @@
   <meta charset="utf-8">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="icon" type="image/png" href="./assets/images/logos/icon-solicode.png">
+  <!-- css -->
   <link rel="stylesheet" href="./assets/css/output.css">
-  <link href="./assets/css/main.css" rel="stylesheet">
+  <link rel="stylesheet" href="./assets/css/animation.css">
+  <link rel="stylesheet" href="./assets/css/main.css">
   <!-- fontawesome -->
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css"
     integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A=="
@@ -15,8 +17,14 @@
 </head>
 
 <body>
+
+
   <main class="bg-light-primary dark:bg-dark-primary">
-    {{ content }}
+    {% include Components/navBar.html %}
+    <div>
+      {{ content }}
+    </div>
+    {% include Components/Footer.html %}
   </main>
 
   <!-- Javascript -->
@@ -39,7 +47,17 @@
   </script>
   <!-- Flowbite -->
   <script src="https://cdnjs.cloudflare.com/ajax/libs/flowbite/2.3.0/flowbite.min.js"></script>
+  <!-- animation -->
+  <script src="./assets/js/animation.js"></script>
+  <!-- Counter -->
+  <script src="./assets/js/countMe.min.js"></script>
+  <script>
 
+    $("#counterStaff").countMe(40, 65);
+    $("#counterPlaces").countMe(40, 20);
+    $("#counterWinnera").countMe(40, 65);
+    $("#counterSectors").countMe(40, 65);
+  </script>
 </body>
 
 </html>

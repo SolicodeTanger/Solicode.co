@@ -1,13 +1,15 @@
 <div class="relative" style="height: 100vh">
     <!-- Placeholder images -->
-    <img src="./assets/images/backgrounds/background01.png" alt="Placeholder Image 1"
+    <img src="./assets/images/bgCarousel/Carousel1.png" alt="Placeholder Image 1"
         class="absolute top-0 left-0 w-screen h-full object-cover transition-opacity duration-700 opacity-100">
-    <img src="./assets/images/backgrounds/background02.png" alt="Placeholder Image 2"
+    <img src="./assets/images/bgCarousel/Carousel2.png" alt="Placeholder Image 2"
+        class="absolute top-0 left-0 w-screen h-full object-cover transition-opacity duration-700 opacity-0">
+    <img src="./assets/images/bgCarousel/Carousel3.png" alt="Placeholder Image 2"
         class="absolute top-0 left-0 w-screen h-full object-cover transition-opacity duration-700 opacity-0">
     <!-- Add more images as needed -->
 
     <!-- Black overlay with 50% transparency -->
-    <div id="nodeaas" class="absolute top-0 left-0 w-full h-full bg-dark-primary bg-opacity-30"></div>
+    <div id="nodeaas" class="absolute top-0 left-0 w-full h-full"></div>
     <svg id="wave" class="absolute z-20" style="transform:rotate(0deg); transition: 0.3s; bottom:-1px"
         viewBox="0 0 1440 100" version="1.1" xmlns="http://www.w3.org/2000/svg">
         <defs>
@@ -23,26 +25,34 @@
 
     <!-- Text overlay -->
     <div class="absolute top-1/2 left-1/2 transform -translate-x-1/2 -translate-y-1/2 z-10 text-center text-white "
-        style="width: 80%;">
+        style="width: 95%;">
         <div class="grid grid-cols lg:grid-cols-2">
-            <div class="text-start bg-light-grayPrimary px-10 py-20 rounded-lg bg-opacity-50">
-                <p class="text-lg font-bold">Inscription <span class="">2024</span> - <span>2025</span>
+            <div class="text-start  px-10 py-20 rounded-lg ">
+                <p
+                    class="text-lg font-bold animate-fade-left animate-duration-1000 animate-delay-500 animate-ease-linear">
+                    Inscription <span class="">2024</span> - <span>2025</span>
                 </p>
-                <h1 class="text-3xl font-bold text-light-yellowPrimary">
+                <h1
+                    class="text-3xl font-bold text-light-yellowPrimary animate-fade-down animate-duration-500 animate-delay-[1300ms] animate-ease-linear">
                     Ready to Ignite Your Coding Journey?
                 </h1>
-                <p class="text-lg text-justify mt-5">
+                <p
+                    class="text-lg text-justify mt-5 animate-fade-left animate-duration-1000 animate-delay-500 animate-ease-linear">
                     Aged between <span class="text-bold ">18</span> and <span class="text-bold ">35</span>? At
                     CodeForge,
                     we welcome individuals of all academic backgrounds. Join us to
                     ignite your coding journey and be part of our inclusive community.
                 </p>
                 <button type="button"
-                    class="focus:outline-none uppercase mt-5 text-white bg-light-yellowPrimary hover:bg-yellow-500 focus:ring-4 focus:ring-light-yellowSecondary font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-light-yellowSecondary">
+                    class="focus:outline-none uppercase mt-5 text-white bg-light-yellowPrimary hover:bg-yellow-500 focus:ring-4 focus:ring-light-yellowSecondary font-medium rounded-lg text-sm px-5 py-2.5 me-2 mb-2 dark:focus:ring-light-yellowSecondary animate-fade-up animate-duration-500 animate-delay-[1500ms] animate-ease-linear">
                     Inscription
                 </button>
             </div>
-
+        </div>
+        <div class="flex justify-center">
+            <div class="animate-bounce w-6 h-6 ">
+                <i class="fa-solid fa-arrow-down"></i>
+            </div>
         </div>
     </div>
     <!-- <p class="mt-4">Additional text content</p> -->
