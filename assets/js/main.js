@@ -15,3 +15,28 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 
+// ===== NAVBAR ===== //
+$(window).scroll(function () {
+
+    let position = $(this).scrollTop();
+    if (position >= 500) {
+        $('.nav-menu').addClass('costum-navbar');
+        darkLogo.style.display = 'none';
+        lightLogo.style.display = 'block';
+    } else {
+        $('.nav-menu').removeClass('costum-navbar');
+        darkLogo.style.display = 'block';
+        lightLogo.style.display = 'none';
+    }
+
+    $(document).ready(function () {
+
+        $('#dropdownNavbarLink').click(function () {
+            $('#dropdownNavbarLink').toggleClass('change');
+        })
+
+    });
+
+
+});
+
