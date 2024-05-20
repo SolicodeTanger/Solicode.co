@@ -25,7 +25,7 @@
     -o-transition: all .4s;
 }
 
-@media (max-width:34em) {
+@media (max-width:48em) {
     .nav-menu {
         background: #fff !important;
         color: black !important;

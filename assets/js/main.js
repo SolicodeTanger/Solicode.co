@@ -16,27 +16,32 @@ document.addEventListener("DOMContentLoaded", function () {
 
 
 // ===== NAVBAR ===== //
-$(window).scroll(function () {
+document.addEventListener('DOMContentLoaded', function () {
+    const lightLogo = document.getElementById('lightLogo');
+    const darkLogo = document.getElementById('darkLogo');
 
-    let position = $(this).scrollTop();
-    if (position >= 500) {
-        $('.nav-menu').addClass('costum-navbar');
-        darkLogo.style.display = 'none';
-        lightLogo.style.display = 'block';
-    } else {
-        $('.nav-menu').removeClass('costum-navbar');
-        darkLogo.style.display = 'block';
-        lightLogo.style.display = 'none';
-    }
-
-    $(document).ready(function () {
-
-        $('#dropdownNavbarLink').click(function () {
-            $('#dropdownNavbarLink').toggleClass('change');
-        })
-
+    $(window).scroll(function () {
+        if ($(window).width() > 800) {
+            let position = $(this).scrollTop();
+            if (position >= 500) {
+                $('.nav-menu').addClass('costum-navbar');
+                darkLogo.style.display = 'none';
+                lightLogo.style.display = 'block';
+            } else {
+                $('.nav-menu').removeClass('costum-navbar');
+                darkLogo.style.display = 'block';
+                lightLogo.style.display = 'none';
+            }
+        }
     });
-
-
 });
 
+
+const scrollBtn = document.querySelector('.scroll-to-bottom');
+
+scrollBtn.addEventListener('click', function () {
+    window.scrollTo({
+        top: document.body.scrollHeight,
+        behavior: 'smooth',
+    });
+});
