@@ -53,3 +53,4 @@ bundle exec jekyll serve
 - [jqueryscript](https://www.jqueryscript.net/blog/best-particle-systems.html)
 
 - [Video](https://codepen.io/weboccult/pen/bGJyLBr)
+- [Navbar](https://codepen.io/axpart/pen/YzKmadj)

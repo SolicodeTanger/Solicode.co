@@ -8,3 +8,33 @@
     opacity: 0.3;
     /* z-index: -1; */
 }
+
+
+
+/* ===== NAVBAR SECTION ===== */
+
+
+
+.nav-menu {
+    background: transparent;
+    z-index: 9999;
+    transition: all .4s;
+    -webkit-transition: all .4s;
+    -moz-transition: all .4s;
+    -ms-transition: all .4s;
+    -o-transition: all .4s;
+}
+
+@media (max-width:48em) {
+    .nav-menu {
+        background: #fff !important;
+        color: black !important;
+
+    }
+}
+
+.costum-navbar {
+    background-color: #fff !important;
+    color: black !important;
+    box-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -2px rgba(0, 0, 0, 0.1);
+}
